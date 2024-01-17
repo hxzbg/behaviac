@@ -147,6 +147,7 @@ else()
 	endif()
 endif()
 
+add_definitions( "-w" )
 
 if(BEHAVIAC_RELEASE_ON)
 
